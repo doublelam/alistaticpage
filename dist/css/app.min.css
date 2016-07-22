@@ -8,10 +8,10 @@
   position: absolute;
   left: 0;
   right: 0;
-  bottom: 20px;
+  bottom: 4%;
   margin: auto;
   width: 40.6%;
-  height: auto;
+  padding-bottom: 20%;
   background-color: #aaa;
   border: 5px solid #3791E0;
 }
