@@ -1,0 +1,1 @@
+{"version":3,"sources":["app.less","app.css"],"names":[],"mappings":"AAAA;EAGY,YAAA;CCDX","file":"../styles/app.min.css","sourcesContent":[".cover-display{\r\n    .background-image-container{\r\n        img{\r\n            width: 100%;\r\n        }\r\n    }\r\n}\r\n",".cover-display .background-image-container img {\n  width: 100%;\n}\n"]}
