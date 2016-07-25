@@ -1,3 +1,11 @@
+ul li {
+  list-style: none;
+  margin: 0;
+}
+.inside-content {
+  max-width: 1200px;
+  margin: auto;
+}
 .cover-display {
   position: relative;
 }
@@ -14,6 +22,118 @@
   padding-bottom: 20%;
   background-color: #aaa;
   border: 5px solid #3791E0;
+}
+.personal-show .show-describes {
+  color: #1D4872;
+  text-align: center;
+}
+.personal-show .show-describes .describes-title {
+  font-weight: 700;
+}
+.personal-show .show-describes .describes-content {
+  font-size: 1rem;
+  font-weight: bolder;
+}
+.personal-show .avator-lists .avator-lists-container {
+  overflow: auto;
+  background: #346CA4;
+  border-radius: 8px;
+  padding: 0 8px 12px 8px;
+}
+.personal-show .avator-lists .avator-lists-container .avator-list {
+  position: relative;
+  padding: 8px;
+}
+.personal-show .avator-lists .avator-lists-container .avator-list a {
+  display: block;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.personal-show .avator-lists .avator-lists-container .avator-list a img {
+  width: 100%;
+}
+.personal-show .avator-lists .avator-lists-container .avator-list.visit:after {
+  content: '';
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #fff;
+  position: absolute;
+  left: 50%;
+  bottom: -6px;
+  margin-left: -5px;
+}
+.personal-show .personal-show-block .show-head-content {
+  padding: 40px;
+  position: relative;
+}
+.personal-show .personal-show-block .show-head-content .personal-image-area {
+  display: inline-block;
+  vertical-align: bottom;
+  width: 45%;
+  padding-right: 40px;
+}
+.personal-show .personal-show-block .show-head-content .personal-image-area .personal-aontainer {
+  border: 5px solid #3791E0;
+}
+.personal-show .personal-show-block .show-head-content .personal-image-area .personal-aontainer img {
+  width: 100%;
+}
+.personal-show .personal-show-block .show-head-content .personal-image-area .personal-show-image-describe {
+  font-size: 1.2rem;
+  color: #fff;
+  font-weight: 100;
+  margin-bottom: 0;
+}
+.personal-show .personal-show-block .show-head-content .personal-image-area .share-icons-container .share-icon {
+  float: left;
+  margin-right: 20px;
+}
+.personal-show .personal-show-block .show-head-content .personal-video-area {
+  display: inline-block;
+  vertical-align: bottom;
+  width: 55%;
+  padding-bottom: 20%;
+  background-color: #aaa;
+}
+.personal-show .personal-show-block .show-head-content .dark-back-div {
+  position: absolute;
+  width: 100%;
+  padding-bottom: 26%;
+  left: 0;
+  bottom: 0;
+  background-color: #346CA4;
+  z-index: -1;
+}
+.personal-show .personal-show-block .show-images-lists-container {
+  overflow: auto;
+  width: -webkit-calc(100% + 14px);
+  width: calc(100% + 14px);
+  margin-left: -7px;
+}
+.personal-show .personal-show-block .show-images-lists-container .show-image {
+  padding: 7px;
+}
+.personal-show .personal-show-block .show-images-lists-container .show-image .show-image-container {
+  border: 5px solid #3791E0;
+}
+.personal-show .personal-show-block .show-images-lists-container .show-image .show-image-container img {
+  width: 100%;
+  vertical-align: middle;
+}
+.product-for-view {
+  background-color: #3791E0;
+}
+.product-for-view .show-describes {
+  color: #fff;
+  text-align: center;
+}
+.product-for-view .show-describes .describes-title {
+  font-weight: 700;
+}
+.product-for-view .show-describes .describes-content {
+  font-size: 1rem;
+  font-weight: bolder;
 }
 
 /* app @version v1.0.0 @date 07-22-2016  16:11:49 */

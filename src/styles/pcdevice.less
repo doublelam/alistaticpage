@@ -1,3 +1,8 @@
+
+.inside-content{
+    max-width: 1200px;
+    margin: auto;
+}
 .cover-display{
     position: relative;
     .background-image-container{
@@ -18,3 +23,126 @@
 
     }
 }
+
+.personal-show{
+    .show-describes{
+        color: #1D4872;
+        text-align: center;
+        .describes-title{
+            font-weight: 700;
+        }
+        .describes-content{
+            font-size: 1rem;
+            font-weight: bolder;
+        }
+    }
+    .avator-lists{
+        .avator-lists-container{
+            overflow: auto;
+            background: @darkerBlue;
+            border-radius: 8px;
+            padding: 0 8px 12px 8px;
+            .avator-list{
+                position: relative;
+                padding: 8px;
+                a{
+                    display: block;
+                    border-radius: 50%;
+                    overflow: hidden;
+                    img{
+                        width: 100%;
+                    }
+                }
+            }
+            .avator-list.visit:after{
+                content: '';
+                width: 10px;
+                height: 10px;
+                border-radius: 50%;
+                background-color: #fff;
+                position: absolute;
+                left: 50%;
+                bottom: -6px;
+                margin-left: -5px;
+
+            }
+        }
+    }
+    .personal-show-block{
+        .show-head-content{
+            padding: 40px;
+            position: relative;
+            .personal-image-area{
+                display: inline-block;
+                vertical-align: bottom;
+                width: 45%;
+                padding-right: 40px; 
+                .personal-aontainer{
+                    border: 5px solid @lighterBlue;
+                    img{
+                        width: 100%;
+                    }
+                }
+                .personal-show-image-describe{
+                    font-size: 1.2rem;
+                    color: #fff;
+                    font-weight: 100;
+                    margin-bottom: 0;
+                }
+                .share-icons-container{
+                    .share-icon{
+                        float: left;
+                        margin-right: 20px;
+                    }
+                }
+            }
+            .personal-video-area{
+                display: inline-block;
+                vertical-align: bottom;
+                width: 55%;
+                padding-bottom: 20%;
+                background-color: #aaa;
+            }
+            .dark-back-div{
+                position: absolute;
+                width: 100%;
+                padding-bottom: 26%;
+                left: 0;
+                bottom: 0;
+                background-color: @darkerBlue;
+                z-index: -1;
+            }
+        }
+        .show-images-lists-container{
+            overflow: auto;
+            width: calc(~'100% + 14px');
+            margin-left: -7px;
+            .show-image{
+                padding: 7px;
+                .show-image-container{
+                    border: 5px solid @lighterBlue;
+                    img{
+                        width: 100%;
+                        vertical-align: middle;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.product-for-view{
+    background-color: @lighterBlue; 
+    .show-describes{
+        color: #fff;
+        text-align: center;
+        .describes-title{
+            font-weight: 700;
+        }
+        .describes-content{
+            font-size: 1rem;
+            font-weight: bolder;
+        }
+    }
+}
+  
